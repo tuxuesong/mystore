@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants">
+
+    <ImageView
+        android:id="@+id/adapter_gift_header_iv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/ic_pull_logo"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/adapter_gift_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/list_item_title_text_size"
+            android:textStyle="bold"
+            android:textColor="@color/list_item_title_color"
+            android:maxLines="1"
+            android:text="wangzherongyao"/>
+
+        <TextView
+            android:id="@+id/adapter_gift_remain_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/list_item_content_color"
+            android:textSize="@dimen/list_item_content_text_size"
+            android:text="wangzherongyao"/>
+
+        <TextView
+            android:id="@+id/adapter_gift_content_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/list_item_content_color"
+            android:textSize="@dimen/list_item_content_text_size"
+            android:singleLine="true"
+            android:text="wangzherongyao"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/adapter_gift_btn1"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_gift_yellow_btn"
+        android:textColor="@color/selector_btn_text_yellow"
+        android:text="@string/gift_list_btn1"/>
+
+    <Button
+        android:id="@+id/adapter_gift_btn2"
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:layout_margin="10dp"
+        android:textColor="@color/selector_btn_text_blue"
+        android:background="@drawable/selector_gift_blue_btn"
+        android:text="@string/gift_list_btn2"
+        android:visibility="gone"/>
+
+</LinearLayout>

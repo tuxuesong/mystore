@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">ZhuShou_1514</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="public_cancel">取消</string>
+    <string name="public_ok">确认</string>
+    <string name="public_upgrade">立即更新</string>
+
+
+    <!-- 主页面-->
+    <string name="home_rb_profit">赚钱</string>
+    <string name="home_rb_gift">礼包</string>
+    <string name="home_rb_active">活动</string>
+    <string name="home_rb_exchange">兑换</string>
+    <string name="home_rb_my">我的</string>
+
+    <!-- 礼包-->
+    <string name="gift_search_gift">搜礼包</string>
+    <string name="gift_type_mobile">手游礼包</string>
+    <string name="gift_type_web">页游礼包</string>
+    <string name="gift_list_btn1">淘号</string>
+    <string name="gift_list_btn2">免费领取</string>
+    <string name="gift_list_remain">剩余:%1d</string>
+    <string name="gift_info_title">礼包详情</string>
+    <string name="gift_info_remain">剩余量:</string>
+    <string name="gift_info_validity">有效期: %1$s -- %2$s</string>
+    <string name="gift_info_used">适用于:</string>
+    <string name="gift_info_type">类型: %1s</string>
+    <string name="gift_info_size">大小: %1s</string>
+    <string name="gift_info_content">礼包内容</string>
+    <string name="gift_info_get_method">领取方式</string>
+    <string name="gift_info_down_load">下载游戏</string>
+    <string name="gift_info_per">%1$d / %2$s</string>
+    <string name="gift_info_consume">%1s U币</string>
+
+    <string name="share_wb">微博</string>
+    <string name="share_wx">微信</string>
+    <string name="share_pyq">朋友圈</string>
+    <string name="share_qq">QQ好友</string>
+
+    <!--profit-->
+    <string name="profit_left">签到得分</string>
+    <string name="profit_middle">今日任务</string>
+    <string name="profit_right">积分商城</string>
+    <string name="profit_list">游戏类型</string>
+    <string name="profit_iv">奖xxxU币</string>
+
+    <!--userlogin-->
+    <string name="user_login">用户登录</string>
+    <string name="user_regist">注册</string>
+    <string name="user_phone">请输入手机号</string>
+    <string name="user_password">请输入密码</string>
+    <string name="user_checkBox">下次自动登录</string>
+    <string name="user_word">忘记密码了？</string>
+    <string name="user_login_btn">登录</string>
+    <string name="exception">登录异常，请联系客服：QQ800077265</string>
+
+    <!-- userregist-->
+    <string name="regist">用户注册</string>
+    <string name="regist_phone">请输入手机号</string>
+    <string name="regist_name">请输入昵称</string>
+    <string name="regist_word">请输入密码</string>
+    <string name="regist_yaoword">请输入邀请码</string>
+    <string name="regist_autowrite">扫描自动填写</string>
+    <string name="regist_checkbox">我已阅读并接受</string>
+    <string name="regist_agree">注册协议</string>
+    <string name="regist_btn">下一步</string>
+    <string name="checkphone">手机号验证</string>
+    <string name="checkphonebtn">完成</string>
+    <string name="checkphonehao">获取验证码</string>
+
+    <!-- checkuser-->
+    <string name="checkuser_title">帐号验证</string>
+    <string name="checkuser_phone">手机号:</string>
+    <string name="checkuser_phnumber">请输入您注册的手机号码</string>
+    <string name="checkuser_niannum">请输入验证码</string>
+    <string name="checkuser_get">获取验证码</string>
+    <string name="checkuser_btn">下一步</string>
+
+    <!-- exchange-->
+    <string name="exchange_title">积分商城</string>
+    <string name="exchange_title_left">最新奖品</string>
+    <string name="exchange_title_right">最热奖品</string>
+    <string name="exchange_title_giftinfo">奖品详情</string>
+
+    <string name="exchange_xml_name">天外飞仙</string>
+    <string name="exchange_xml_name_dui">兑换</string>
+
+    <!-- Active-->
+    <string name="active_title_name">社区活动</string>
+    <string name="active_left_name_btn">未参加</string>
+    <string name="active_right_name_btn">已参加</string>
+    <string name="active_bottom_gift_tv">暂时没有已参加活动数据</string>
+
+    <!--gameinfo-->
+    <string name="gameinfo_title">游戏详情</string>
+    <string name="gameinfo_left_btn">游戏信息</string>
+    <string name="gameinfo_middle_btn">游戏礼包</string>
+    <string name="gameinfo_right_btn">评论</string>
+    <string name="gameinfo_bottom_btn_left">提交</string>
+    <string name="gameinfo_bottom_btn_right">下载</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="gameinfo_firstview">首次安装</string>
+    <string name="gameinfo_secondview">创建角色并试玩5分钟</string>
+    <string name="gameinfo_thirdview">未完成</string>
+    <string name="gameinfo_fourview">等级达到50级并上传截图</string>
+    <string name="gameinfo_fiveview">请按照截图示例上传</string>
+    <string name="gameinfo_introduceview">试玩信息</string>
+    <string name="gameinfo_introduceviewmm">下载并试玩3分钟即可获得奖励</string>
+    <string name="gameinfo_introducebigview">注：必须在72G游戏助手下载游戏才能获得奖励</string>
+    <string name="gameinfo_lovegame">猜你喜欢</string>
+    <string name="gameinfo_lovegameintroduce">游戏介绍</string>
+    <string name="gameinfo_gamename">游戏名字</string>
+    <string name="gameinfo_howmangpeople">多少人下载</string>
+
+    <!--my页面-->
+    <string name="my_namegifo">我的信息</string>
+    <string name="my_comeon">每日签到，拿更多礼品</string>
+    <string name="my_mygift">礼包</string>
+    <string name="my_myactive">活动</string>
+    <string name="my_myexchagne">兑换</string>
+    <string name="my_myplay">试玩</string>
+    <string name="my_comeonright">立即签到</string>
+    <string name="my_mytask">我的任务</string>
+    <string name="my_weixin">微信抢红包助手</string>
+    <string name="my_myfriends">邀请好友</string>
+    <string name="my_mysmallgames">休闲小游戏</string>
+    <string name="my_system">系统设置</string>
+    <string name="my_userlogin">点击登录</string>
+    <string name="my_userlogin_bottom">点击登录，玩游戏赚U币</string>
+
+
+    <string name="active_info">活动详情</string>
+    <string name="active_info_left">第</string>
+    <string name="active_info_right">楼</string>
+    <string name="active_info_middle">楼层</string>
+    <string name="active_info_bottom">共楼</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

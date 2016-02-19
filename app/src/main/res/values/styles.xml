@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- 主页面的RadioButton样式-->
+    <style name="home_radio_btn_style">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_rb_text</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <!-- 一条灰色的横线-->
+    <style name="public_gray_horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <!-- 分享菜单的动画-->
+    <style name="share_pop_anim">
+        <!-- 进入动画-->
+        <item name="android:windowEnterAnimation">@anim/anim_share_pop_in</item>
+        <!-- 退出动画-->
+        <item name="android:windowExitAnimation">@anim/anim_share_pop_out</item>
+    </style>
+
+    <!--更新对话框的样式-->
+    <style name="upgrade_dialog_style" parent="android:Theme.Dialog">
+        <!-- 去掉默认的标题栏-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 让背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+
+</resources>

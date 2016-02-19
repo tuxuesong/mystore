@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.qianfeng.zhushou.exchange.ui.Exchangegiftinfo">
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/ic_back_normal"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exchange_title_giftinfo"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/list_item_title_color"
+        />
+
+    <ImageView
+        android:id="@+id/exchange_gameinfo_iv"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:padding="20dp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:id="@+id/exchange_gameinfo_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:padding="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="@string/checkuser_title"
+        android:background="@color/light_gray"
+        />
+    <TextView
+        android:id="@+id/exchange_gameinfo_cousme_tv"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="@string/checkuser_title"
+        android:background="@color/light_gray"
+        />
+
+    <Button
+        android:id="@+id/exchange_gameinfo_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="@string/exception"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_regist_btn"
+        />
+
+</LinearLayout>

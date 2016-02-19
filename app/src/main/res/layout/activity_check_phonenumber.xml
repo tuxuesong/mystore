@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/checkuser_iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/ic_back_normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/checkphone"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/checkphone_first_et"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:hint="@string/checkuser_phone"
+        android:paddingLeft="10dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="@color/shape_checkbox_phone"
+        android:background="@drawable/shape_userlogin_et"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <EditText
+        android:id="@+id/checkphone_sec_et"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:paddingLeft="15dp"
+        android:textSize="15sp"
+        android:hint="@string/checkuser_niannum"
+        android:background="@drawable/shape_userlogin_et"
+        android:layout_height="40dp" />
+        <Button
+            android:id="@+id/checkbtn"
+            android:layout_alignRight="@id/checkphone_sec_et"
+            android:layout_alignBottom="@id/checkphone_sec_et"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/shape_regist_btn"
+            android:textColor="@color/selector_btn_text_yellow"
+            android:padding="3dp"
+            android:textSize="10sp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/checkphonehao"
+            />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/checkuser_btn"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_regist_btn"
+        android:text="@string/checkphonebtn"
+        android:textColor="@color/shape_regist_text"
+        />
+
+</LinearLayout>

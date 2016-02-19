@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/user_login_lv"
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_back_normal" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="8"
+            android:gravity="center"
+            android:text="@string/user_login"
+            android:textSize="@dimen/user_login"
+            />
+        <TextView
+            android:id="@+id/user_regist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:text="@string/user_regist"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/user_regist" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:hint="@string/user_phone"
+        android:textSize="12sp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape_userlogin_et" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="@string/user_password"
+        android:inputType="textPassword"
+        android:textSize="12sp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/shape_userlogin_et" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_checkBox" />
+        <TextView
+            android:id="@+id/user_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="125dp"
+            android:text="@string/user_word"
+            android:textColor="@color/colorAccent" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/user_login_btn"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_user_btn"
+        android:text="@string/user_login_btn"
+        android:textColor="@color/white" />
+    <TextView
+        android:id="@+id/user_exception"
+        android:layout_marginTop="290dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exception"
+        android:textColor="@color/colorAccent"
+        />
+</LinearLayout>

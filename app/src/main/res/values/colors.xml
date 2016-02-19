@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <color name="colorPrimary">#d1d1d1</color>
+    <color name="colorAccent">#0A85FF</color>
+    <color name="gray_white">#F7F8FA</color>
+    <color name="light_gray">#bbF2F2F2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#eeeeee</color>
+
+    <color name="list_item_title_color">#6b6b6c</color>
+    <color name="list_item_content_color">#989590</color>
+    <color name="list_item_yellow_btn_color">#ef9c00</color>
+
+    <color name="bui_bg_color">#991572a0</color>
+    <color name="gift_type_bg">#e3e4e6</color>
+
+    <color name="progress_bar_bg">#1572a0</color>
+    <color name="progress_bar_progress">#89c5ff</color>
+    <color name="progress_bar_second_progress">#9989c5ff</color>
+
+    <color name="user_login_btn">#9f00</color>
+
+    <color name="checkuser_phone">#000</color>
+
+
+
+</resources>

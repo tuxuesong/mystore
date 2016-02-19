@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    >
+
+
+
+        <com.qianfeng.zhushou.other.widget.ExchangeCircleLeftiv
+            android:id="@+id/exchange_left_iv"
+            android:layout_marginTop="10dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_about_app" />
+
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/exchange_middle_title_Top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textStyle="bold"
+                android:text="@string/exchange_xml_name" />
+
+            <TextView
+                android:id="@+id/exchange_middle_middle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_xml_name" />
+
+            <TextView
+                android:id="@+id/exchange_middle_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exchange_xml_name" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/exchange_right_btn"
+            android:layout_width="60dp"
+            android:layout_height="35dp"
+            android:background="@drawable/selector_gift_yellow_btn"
+            android:text="@string/exchange_xml_name_dui" />
+
+
+    </LinearLayout>

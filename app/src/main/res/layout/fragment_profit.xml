@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_white"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/fragment_profit_left_iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_usercenter_avatar"
+
+            />
+
+        <EditText
+            android:id="@+id/fragment_profit_et"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/fragment_profit_left_iv"
+            android:background="@drawable/shape_input_bg"
+
+            />
+
+        <ImageView
+            android:id="@+id/fragment_profit_right_iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/ic_input_search"
+
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/fragment_profit_left_tv"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_fragment_profit_tv"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/profit_left"
+            android:textColor="@color/selector_profit_text_blue" />
+
+        <TextView
+            android:id="@+id/fragment_profit_middle_tv"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_fragment_profit_tv"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/profit_middle"
+            android:textColor="@color/selector_profit_text_blue" />
+
+        <TextView
+            android:id="@+id/fragment_profit_right_tv"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_margin="13dp"
+            android:layout_weight="1"
+            android:background="@drawable/selector_fragment_profit_tv"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="@string/profit_right"
+            android:textColor="@color/selector_profit_text_blue" />
+
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_profit_swipe"
+
+        >
+    <com.qianfeng.zhushou.profit.utils.LoadmoreActivity
+        android:id="@+id/fragment_profit_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.qianfeng.zhushou.profit.utils.LoadmoreActivity>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>
